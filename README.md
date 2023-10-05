@@ -7,9 +7,9 @@
      npm i cors
 
 # Follow steps:
-STEP 1 :-Open terminal install al the above command
-STEP 2 :- then run 'nodemon server.js'
-STEP 3 :- click on go live
+     STEP 1 :-Open terminal install al the above command
+     STEP 2 :- then run 'nodemon server.js'
+     STEP 3 :- click on go live
    
 
      
