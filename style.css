@@ -1,0 +1,91 @@
+.input-box {
+    position: relative;
+    height: 76px;
+    max-width: 900px;
+    width: 100%;
+    background: whitesmoke; /* Change this to your desired background color */
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-box i {
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+    color: #707070;
+  }
+  
+  .input-box input {
+    flex: 1;
+    height: 100%;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    padding: 0 155px 0 65px;
+    background-color: transparent;
+  }
+  
+  .input-box .button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-box .button:hover {
+    background-color: #305fc0;
+  }
+  
+  /* API results container styling */
+  .results {
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .result-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .result-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .result-item .description {
+    font-size: 16px;
+    color: #666;
+    display: none; /* Initially hidden */
+  }
+  .result-item button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4070f4;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  .result-item button:hover {
+    text-decoration: none;
+  }
+  
+  .result-item p {
+    font-size: 16px;
+    color: #666;
+  }
